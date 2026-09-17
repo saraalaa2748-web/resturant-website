@@ -1,0 +1,271 @@
+    
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>La Bella | Italian Restaurant</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+
+        <a href="#home" class="logo">
+            La Bella
+        </a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="subtitle">WELCOME TO LA BELLA</p>
+
+            <h1>
+                Taste the heart<br>
+                of Italy
+            </h1>
+
+            <p class="hero-text">
+                Authentic Italian dishes made with fresh
+                ingredients and a lot of love.
+            </p>
+
+            <a href="#menu" class="hero-btn">
+                Explore Our Menu
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- About -->
+    <section id="about" class="about">
+
+        <div class="about-content">
+
+            <p class="section-label">OUR STORY</p>
+
+            <h2>
+                Made with passion,<br>
+                served with love.
+            </h2>
+
+            <p>
+                At La Bella, we believe that great food brings
+                people together. Our chefs prepare every dish
+                using fresh ingredients and traditional Italian
+                recipes.
+            </p>
+
+            <p>
+                From our kitchen to your table, every meal is
+                prepared with care.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Menu -->
+    <section id="menu" class="menu">
+
+        <div class="section-heading">
+
+            <p class="section-label">OUR MENU</p>
+
+            <h2>Popular Dishes</h2>
+
+            <p>
+                Discover some of our favorite dishes.
+            </p>
+
+        </div>
+
+
+        <div class="menu-container">
+
+
+            <!-- Card 1 -->
+            <div class="menu-card">
+
+                <img
+                    src="pizza.jpg"
+                    alt="Margherita Pizza">
+
+                <div class="card-content">
+
+                    <div class="card-title">
+
+                        <h3>Margherita Pizza</h3>
+
+                        <span>$12</span>
+
+                    </div>
+
+                    <p>
+                        Fresh tomatoes, mozzarella,
+                        basil and extra virgin olive oil.
+                    </p>
+
+                    <button class="order-btn">
+                        Order Now
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Card 2 -->
+            <div class="menu-card">
+
+                <img
+                    src="pasta.jpg"
+                    alt="Chicken Pasta">
+
+                <div class="card-content">
+
+                    <div class="card-title">
+
+                        <h3>Chicken Pasta</h3>
+
+                        <span>$10</span>
+
+                    </div>
+
+                    <p>
+                        Creamy pasta with grilled chicken
+                        and fresh herbs.
+                    </p>
+
+                    <button class="order-btn">
+                        Order Now
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Card 3 -->
+            <div class="menu-card">
+
+                <img
+                    src="burger.jpg"
+                    alt="Beef Burger">
+
+                <div class="card-content">
+
+                    <div class="card-title">
+
+                        <h3>Classic Burger</h3>
+
+                        <span>$9</span>
+
+                    </div>
+                    <p>
+                        Juicy beef burger with fresh vegetables
+                        and our special sauce.
+                    </p>
+
+                    <button class="order-btn">
+                        Order Now
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+
+        <div class="contact-content">
+
+            <p class="section-label">GET IN TOUCH</p>
+
+            <h2>
+                We'd love to<br>
+                hear from you.
+            </h2>
+
+            <p>
+                Have a question or want to make a reservation?
+                Contact us today.
+            </p>
+
+            <div class="contact-info">
+
+                <p>📍 Cairo, Egypt</p>
+                <p>📞 +20 100 000 0000</p>
+                <p>✉ hello@labella.com</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <h3>La Bella</h3>
+
+        <p>
+            Authentic Italian cuisine in the heart of Cairo.
+        </p>
+
+        <p class="copyright">
+            © 2026 La Bella Restaurant. All rights reserved.
+        </p>
+
+    </footer>
+<div class="modal" id="orderModal">
+
+    <div class="modal-content">
+
+        <button class="close-modal">&times;</button>
+
+        <p class="section-label">YOUR ORDER</p>
+
+        <h2 id="selectedMeal"></h2>
+
+        <p id="selectedPrice"></p>
+
+        <button class="confirm-btn">
+            Confirm Order
+        </button>
+
+    </div>
+
+</div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
